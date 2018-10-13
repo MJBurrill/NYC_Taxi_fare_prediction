@@ -15,7 +15,7 @@ Data provided:
   
   From this, the competition was to predict the fare given the features above without the fare of course.
   
-#Feature Engineering Thoughts:
+Feature Engineering Thoughts:
 
 -Intuitively thought that passenger count was probably negligible. I found this be true by both looking at the relationship between passenger count and fare as well as RMSE score with and without the passenger count variable when run through the model. As a result, drop this from the beginning to increase computation speed and the number of data points that can be run through the model using kaggle’s online computation tool.
 
@@ -27,7 +27,7 @@ Data provided:
 Not only was this great for the airports, but I realized that I could also use this to flag high traffic areas as we all know that fare increases with time and traffic increases time. 
 
  
-#Model Thoughts:
+Model Thoughts:
 
 -As I didn’t want to spend any money on computing time I limited myself to only using Kaggle's free cloud computing. This is limiting because you have memory and time restrictions.
 
